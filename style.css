@@ -471,6 +471,10 @@ button.plus {
     .becomeSeller {
         display: none;
     }
+    .notFound h1 {
+        font-size: 40px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 600px){
@@ -501,7 +505,12 @@ button.plus {
 @media (max-width: 500px){
     .cart {
         margin-right: 0;
-    }   
+    } 
+    
+    .notFound h1 {
+        font-size: 30px;
+        text-align: center;
+    }
     
 }
 
