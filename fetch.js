@@ -150,7 +150,7 @@ getApi.then((res) => res.json()).then((profile) => {
     
     searchInp.oninput = function(){
         let tr = true;
-        let se = this.value;
+        let se = this.value.toLowerCase();
         console.log(se)
         let card = document.querySelectorAll('.card');
         card.forEach((el)=>{
