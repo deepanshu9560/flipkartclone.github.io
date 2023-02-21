@@ -30,6 +30,8 @@
 
 .hdForm {
     margin-left: 12px;
+    margin-right: auto;
+    width: 100%;
 }
 
 .hdForm form input {
